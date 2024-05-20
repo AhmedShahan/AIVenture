@@ -73,3 +73,30 @@
 }
 
 /* Define the keyframes for the animation */
+
+
+
+.myprofile {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center;
+    margin-top: 2rem; /* Adjust margin as needed */
+}
+
+.left-section {
+    margin-right: 20px;
+}
+
+.right-section {
+    flex-grow: 1;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links img {
+    width: 30px;
+    margin-right: 10px;
+}
+
