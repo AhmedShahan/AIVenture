@@ -172,7 +172,7 @@ body {
 
 
 /* Media Query for Mobile Screens */
-@media (max-width: 425px) {
+@media (max-width: 768px) {
     .container {
         width: 90%;
         max-width: 1000px;
