@@ -10,7 +10,7 @@ body {
 .container {
     background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(10px);
-    width: 90%;
+    width: 80%;
     max-width: 1000px;
     padding: 2rem;
     border-radius: 20px;
@@ -33,7 +33,7 @@ body {
 
 .container p {
     color: aliceblue;
-    font-size: 1 rem;
+    font-size: 1.6 rem;
     line-height: 1.6;
     text-align: justify;
     margin-bottom: 1rem;
@@ -185,7 +185,7 @@ body {
     }
 
     .container p {
-        font-size: 0.875rem;
+        font-size: 0.775rem;
     }
 
     .container p::first-letter {
