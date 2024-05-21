@@ -174,27 +174,35 @@ body {
 /* Media Query for Mobile Screens */
 @media (max-width: 425px) {
     .container {
-        width: 95%;
-        /* max-width: 1000px; */
-        padding: 1rem;
-        margin-top: 2rem;
+        width: 90%;
+        max-width: 1000px;
+        padding: 0.5rem;
+        margin-top: 0.5rem;
     }
 
     .container h1 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
+        margin-bottom: 0; /* Ensure no margin below the heading */
     }
 
     .container p {
-        font-size: 0.775rem;
+        font-size: 0.75rem;
+        padding: 20px;
+        line-height: 1rem;
+        margin: 0; /* Reset all margins */
     }
 
+    .container p + p {
+        margin-top: -1rem; /* Add margin only to paragraphs that come after another paragraph */
+    }
     .container p::first-letter {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .pagination a {
-        padding: 5px 10px; /* Adjust padding for smaller screens */
-        font-size: 0.75rem; /* Decrease font size */
+        
+        padding: 7px 7px; /* Adjust padding for smaller screens */
+        font-size: 0.85rem; /* Decrease font size */
     }
 
     .next-button {
