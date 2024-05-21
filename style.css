@@ -170,6 +170,48 @@ body {
 }
 
 
+/* Second Page  */
+
+.section{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+}
+
+.section img{
+    height: 200px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+.highlight {
+    animation: blink 1s infinite; /* Blink animation with a duration of 1 second and infinite loop */
+    color:aqua; /* Change text color to blue */
+}
+
+
+@keyframes slideLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .mark {
+    display: inline-block;
+    line-height: 1.2em;
+    padding-bottom: 0.2em;
+    animation: slideLeft 1s ease-in-out forwards;
+  }
+  
 
 /* Media Query for Mobile Screens */
 @media (max-width: 768px) {
@@ -209,6 +251,9 @@ body {
         font-size: 0.75rem;
         padding: 0.4rem 0.8rem;
     }
+
+
+
 
 
 
